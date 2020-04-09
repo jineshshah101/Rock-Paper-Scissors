@@ -1,1 +1,1 @@
-# Rock-Paper-Scissors
+# Creating Rock Paper Scissors Game in JavaScript
