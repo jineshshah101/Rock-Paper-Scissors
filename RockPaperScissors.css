@@ -1,0 +1,27 @@
+/* Designing the main container for Rock Paper Scissor*/
+.RPS{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Bolding Title*/
+.RPS h1{
+    font-weight: bold;
+}
+
+/* Designing the flexbox for the flex container itself*/
+.FlexRPS{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Adding the hover box shadow for the images*/
+.FlexRPS img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
